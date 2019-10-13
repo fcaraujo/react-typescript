@@ -2,10 +2,10 @@ import React, {Component} from 'react';
 
 import logo from './logo.svg';
 import './App.css';
-import Message from './Message';
-import UserMessageStatus from './UserMessageStatus';
-import UserMessage from './UserMessage';
-import Clock from './Clock';
+import Message from './message/Message';
+import UserMessageStatus from './message/UserMessageStatus';
+import UserMessage from './message/UserMessage';
+import Clock from './clock/Clock';
 
 const initialState :UserMessage = {
   message: 'Starting on React!',

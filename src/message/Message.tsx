@@ -20,7 +20,7 @@ const Message = (props: UserMessage): any => {
                 </strong>
                 <br/>
 
-                Hi {props.name},
+                Hi {props.owner},
                 <br />
 
                 Let's proudly: {props.message}

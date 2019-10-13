@@ -9,7 +9,7 @@ import Clock from './clock/Clock';
 
 const initialState :UserMessage = {
   message: 'Starting on React!',
-  name: 'Fernando',
+  owner: 'Fernando',
   status: UserMessageStatus.Learning,
 }
 
@@ -33,7 +33,8 @@ class App extends Component<any, State>{
             Learn React
           </a>
 
-          <Message name={this.state.name} message={this.state.message} 
+          <Message owner={this.state.owner} 
+                   message={this.state.message} 
                    status={this.state.status}
                    learningFrom={this.state.learningFrom} />
 

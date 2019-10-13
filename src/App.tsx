@@ -5,6 +5,7 @@ import './App.css';
 import Message from './Message';
 import UserMessageStatus from './UserMessageStatus';
 import UserMessage from './UserMessage';
+import Clock from './Clock';
 
 const initialState :UserMessage = {
   message: 'Starting on React!',
@@ -21,6 +22,8 @@ class App extends Component<any, State>{
     return (
       <div className="App">
         <header className="App-header">
+          <Clock />
+          
           <img src={logo} className="App-logo" alt="logo" />
 
           <a className="App-link"
@@ -33,6 +36,7 @@ class App extends Component<any, State>{
           <Message name={this.state.name} message={this.state.message} 
                    status={this.state.status}
                    learningFrom={this.state.learningFrom} />
+
         </header>
       </div>
     );

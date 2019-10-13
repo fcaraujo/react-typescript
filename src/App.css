@@ -21,6 +21,18 @@
   color: #09d3ac;
 }
 
+.clock {
+  background: #fff;
+  border: 2px dotted #282c34;
+  font-size: 2vh;
+  color: #282c34;
+  padding: 6px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 10vw;
+}
+
 .message p {
   border: 1px dashed #999;
   padding: 6px;

@@ -20,3 +20,10 @@
 .App-link {
   color: #09d3ac;
 }
+
+.message p {
+  border: 1px dashed #999;
+  padding: 6px;
+  text-align: left;
+  font-size: 2vh;
+}
